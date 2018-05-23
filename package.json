@@ -13,6 +13,7 @@
     "element-ui": "^2.3.7",
     "three": "^0.92.0",
     "vue": "^2.5.11",
+    "vue-scroll": "^2.1.7",
     "vue-threejs": "^0.1.1"
   },
   "browserslist": [
