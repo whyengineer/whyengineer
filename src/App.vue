@@ -8,6 +8,7 @@
         <el-button  round class="index" @click="forumHandle"><i class="fab fa-blogger" ></i> 论坛</el-button>
         <el-button  round class="index"  @click="githubHandle"><i class="fab fa-github"></i> Github</el-button>
         <el-button  round class="index" @click="taobaoHandle"><i class="fas fa-shopping-cart" ></i> 淘宝</el-button>
+        <el-button  round class="index" @click="wikiHandle"><i class="fab fa-wikipedia-w" ></i> Wiki</el-button>
       </el-row>
     </div>
   </div>
@@ -44,6 +45,9 @@ export default {
         },
         forumHandle(){
           window.open("https://forum.whyengineer.com")
+        },
+        wikiHandle(){
+          window.open("https://wiki.whyengineer.com")
         }
     },
     beforeDestroy: function () {
@@ -56,8 +60,8 @@ export default {
           left:this.winWidth/2-170+'px'
         }
         this.ns={
-          top:this.winHeight/2+250+'px',
-          left:this.winWidth/2-300+'px'
+          top:this.winHeight/2+220+'px',
+          left:this.winWidth/2-400+'px'
         }
         this.names={
           top:this.winHeight/2+25+'px',
